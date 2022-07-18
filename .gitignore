@@ -1,6 +1,9 @@
 /env
 .env
 /data
+/moviepy
+/moviepy-1.0.3.dist.info
+/ImageMagick-7.1.0-Q16-HDRI
 __pycache__
 client_secrets.json
 *.json
