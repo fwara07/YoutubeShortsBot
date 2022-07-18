@@ -51,4 +51,4 @@ IMAGEMAGICK_BINARY
 import os
 
 FFMPEG_BINARY = os.getenv('FFMPEG_BINARY', 'ffmpeg-imageio')
-IMAGEMAGICK_BINARY = "../ImageMagick-7.1.0-Q16-HDRI/magick.exe"
+IMAGEMAGICK_BINARY = "./AutoTube/ImageMagick-7.1.0-Q16-HDRI/magick.exe"
