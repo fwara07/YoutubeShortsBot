@@ -44,7 +44,7 @@ class CreateMovie():
         clips = []
         for i, post in enumerate(post_data):
             if "gif" not in post['image_path']:
-                clip = ImageClip(post['image_path']).set_duration(12).set_position(("center",261)).set_start((0, (i * 12)))
+                clip = ImageClip(post['image_path']).set_duration((0,12)).set_position(("center",261)).set_start((0, (i * 12)))
                 clips.append(clip)
             else:
                 clip = VideoFileClip(post['image_path'])
