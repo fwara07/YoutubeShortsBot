@@ -9,7 +9,7 @@ Quick notes!
 """
 
 from datetime import date
-import time 
+import time  
 from utils.CreateMovie import CreateMovie, GetDaySuffix
 from utils.RedditBot import RedditBot
 from utils.upload_video import upload_video
