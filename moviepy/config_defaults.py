@@ -50,5 +50,7 @@ IMAGEMAGICK_BINARY
 
 import os
 
+dir_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+assets_path = os.path.join(dir_path, "ImageMagick-7.1.0-Q16-HDRI/")
 FFMPEG_BINARY = os.getenv('FFMPEG_BINARY', 'ffmpeg-imageio')
-IMAGEMAGICK_BINARY = "./AutoTube/ImageMagick-7.1.0-Q16-HDRI/magick.exe"
+IMAGEMAGICK_BINARY = os.path.join(assets_path, "magick.exe")
